@@ -3,7 +3,7 @@
 A list of awesome tools, repos, apps and other shit.
 
 
-https://github.com/tborychowski?tab=stars
+[TOC]
 
 
 
