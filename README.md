@@ -1,59 +1,179 @@
-
-
 # Awesome Things
 
 A list of awesome tools, repos, apps and other shit.
 
-[TOC]
+- [Awesome Things](#awesome-things)
+	- [Editor](#editor)
+		- [VSCode](#vscode)
+		- [Micro](#micro)
+	- [Editor Plugins](#editor-plugins)
+		- [bracket-pair-colorizer](#bracket-pair-colorizer)
+		- [EditorConfig](#editorconfig)
+		- [eslint](#eslint)
+		- [html-css](#html-css)
+		- [language-stylus](#language-stylus)
+		- [markdown-all-in-one](#markdown-all-in-one)
+		- [nord](#nord)
+		- [npm-script](#npm-script)
+		- [open-in-finder](#open-in-finder)
+		- [open-in-terminal](#open-in-terminal)
+		- [path-autocomplete](#path-autocomplete)
+		- [prettier](#prettier)
+		- [projects-plus](#projects-plus)
+		- [settings-sync](#settings-sync)
+		- [versionlens](#versionlens)
+		- [great-icons](#great-icons)
+		- [whiteviz](#whiteviz)
+	- [Font](#font)
+		- [FiraCode nerd font](#firacode-nerd-font)
+	- [Colours](#colours)
+		- [Nord](#nord)
+		- [nord-visual-studio-code](#nord-visual-studio-code)
+		- [nord-iterm2](#nord-iterm2)
+		- [nord-hyper](#nord-hyper)
+		- [nord-slack](#nord-slack)
+		- [vivaldi-nord](#vivaldi-nord)
+	- [Terminal](#terminal)
+		- [Terminal emulators](#terminal-emulators)
+			- [iTerm](#iterm)
+			- [Hyper](#hyper)
+			- [upterm](#upterm)
+		- [Shell](#shell)
+			- [fish](#fish)
+	- [CLI apps](#cli-apps)
+		- [autojump](#autojump)
+		- [bat](#bat)
+		- [exa](#exa)
+		- [fasd](#fasd)
+		- [fisher](#fisher)
+		- [fzf](#fzf)
+		- [fzy](#fzy)
+		- [httpie](#httpie)
+		- [icdiff](#icdiff)
+		- [jp](#jp)
+		- [massren](#massren)
+		- [tldr](#tldr)
+		- [z](#z)
+	- [CLI apps development](#cli-apps-development)
+		- [Inquirer](#inquirer)
+		- [Signale](#signale)
+		- [Ora](#ora)
+		- [progress-estimator](#progress-estimator)
+	- [Web Development](#web-development)
+		- [svelte](#svelte)
+		- [sequelize](#sequelize)
+		- [express](#express)
+		- [jest](#jest)
+	- [Self-hosted](#self-hosted)
+		- [miniflux](#miniflux)
+		- [kanboard](#kanboard)
+		- [gogs](#gogs)
+
 
 
 ## Editor
 
-- [VSCode](https://code.visualstudio.com/)
-  - [awesome-vscode](https://github.com/viatsko/awesome-vscode#readme)
-  - [VS Code can do that?!](https://vscodecandothat.com/)
-- [Micro](https://github.com/zyedidia/micro) - A modern and intuitive terminal-based text editor
+### [VSCode](https://code.visualstudio.com/)
+Code editing. Redefined.
+- [awesome-vscode](https://github.com/viatsko/awesome-vscode#readme)
+- [VS Code can do that?!](https://vscodecandothat.com/)
 
-### Editor Plugins
-- [TODO]
+### [Micro](https://github.com/zyedidia/micro)
+A modern and intuitive terminal-based text editor
 
 
-### Font
-- [FiraCode nerd font](https://github.com/ryanoasis/nerd-fonts/releases/tag/v2.0.0) - nerd font patcher fira code
+## Editor Plugins
+### [bracket-pair-colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)
+
+### [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
+
+### [eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+
+### [html-css](https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css)
+Handles css in html styling.
+
+### [language-stylus](https://marketplace.visualstudio.com/items?itemName=sysoev.language-stylus)
+Stylus css preprocessor support.
+
+### [markdown-all-in-one](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
+Useful markdown toolkit.
+
+### [nord](https://marketplace.visualstudio.com/items?itemName=arcticicestudio.nord-visual-studio-code)
+Nord theme for VSCode.
+
+### [npm-script](https://marketplace.visualstudio.com/items?itemName=eg2.vscode-npm-script)
+Runs npm scripts defined in `package.json` and validates installed modules against dependencies defined in `package.json`.
+
+### [open-in-finder](https://marketplace.visualstudio.com/items?itemName=fabiospampinato.vscode-open-in-finder)
+
+### [open-in-terminal](https://marketplace.visualstudio.com/items?itemName=fabiospampinato.vscode-open-in-terminal)
+
+### [path-autocomplete](https://marketplace.visualstudio.com/items?itemName=ionutvmi.path-autocomplete)
+
+### [prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+Code formatter
+
+### [projects-plus](https://marketplace.visualstudio.com/items?itemName=fabiospampinato.vscode-projects-plus)
+Best project manager
+
+### [settings-sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
+Sync settings to gist.
+
+### [versionlens](https://marketplace.visualstudio.com/items?itemName=pflannery.vscode-versionlens)
+See packages versions stats in `package.json`
+
+### [great-icons](https://marketplace.visualstudio.com/items?itemName=emmanuelbeziat.vscode-great-icons)
+Best icons
+
+### [whiteviz](https://marketplace.visualstudio.com/items?itemName=spywhere.whiteviz)
+Show whitespace in selection only (sublimetext-like)
+
+
+## Font
+### [FiraCode nerd font](https://github.com/ryanoasis/nerd-fonts/releases/tag/v2.0.0)
+Nerd font patcher fira code.
 
 
 ## Colours
-- [Nord](https://github.com/arcticicestudio/nord)
-- [nord-visual-studio-code](https://github.com/arcticicestudio/nord-visual-studio-code)
-- [nord-iterm2](https://github.com/arcticicestudio/nord-iterm2)
-- [nord-hyper](https://github.com/arcticicestudio/nord-hyper)
-- [nord-slack](https://github.com/arcticicestudio/nord-slack)
-- [vivaldi-nord](https://github.com/arcticicestudio/nord/issues/100), or: 
-  - background: #2f343f
-  - foreground: #eceff4
-  - highlight: #4d5668
-  - accent: #4d5668
+### [Nord](https://github.com/arcticicestudio/nord)
+### [nord-visual-studio-code](https://github.com/arcticicestudio/nord-visual-studio-code)
+### [nord-iterm2](https://github.com/arcticicestudio/nord-iterm2)
+### [nord-hyper](https://github.com/arcticicestudio/nord-hyper)
+### [nord-slack](https://github.com/arcticicestudio/nord-slack)
+### [vivaldi-nord](https://github.com/arcticicestudio/nord/issues/100)
+or:
+- background: #2f343f
+- foreground: #eceff4
+- highlight: #4d5668
+- accent: #4d5668
 
 
 
 ## Terminal
 
 ### Terminal emulators
-- [iTerm](https://iterm2.com/) - bestest
-  - [Tweaking iTerm](https://www.felixjung.io/posts/pretty-iterm2-with-a-modern-titlebar/)
-- [Hyper](https://hyper.is/) - electron based pluggable terminal emulator
-- [upterm](https://github.com/railsware/upterm)
+
+#### [iTerm](https://iterm2.com/)
+Bestest
+- [Tweaking iTerm](https://www.felixjung.io/posts/pretty-iterm2-with-a-modern-titlebar/)
+
+#### [Hyper](https://hyper.is/)
+Electron based pluggable terminal emulator
+
+#### [upterm](https://github.com/railsware/upterm)
 
 
 ### Shell
-- [fish](https://fishshell.com/)
+
+#### [fish](https://fishshell.com/)
+Smart and user-friendly command line shell for Linux, macOS, and the rest of the family.
 
 
 
 
-### CLI apps
+## CLI apps
 
-#### [autojump](https://github.com/wting/autojump)
+### [autojump](https://github.com/wting/autojump)
 A better "cd". [cd-is-wasting-your-time](https://olivierlacan.com/posts/cd-is-wasting-your-time/)
 install
 ```sh
@@ -70,7 +190,7 @@ j p
 ```
 
 
-#### [bat](https://github.com/sharkdp/bat)
+### [bat](https://github.com/sharkdp/bat)
 A better cat
 install
 ```sh
@@ -82,7 +202,7 @@ bat file.js
 ```
 
 
-#### [exa](https://github.com/ogham/exa)
+### [exa](https://github.com/ogham/exa)
 A better "ls"
 install
 ```sh
@@ -94,7 +214,7 @@ alias ll='exa --all --header --long --group-directories-first --git --time-style
 ```
 
 
-#### [fasd](https://github.com/clvv/fasd)
+### [fasd](https://github.com/clvv/fasd)
 Even better cd
 install
 ```sh
@@ -120,7 +240,7 @@ c t    # code ~/Projects/_playground/tim
 
 
 
-#### [fisher](https://github.com/jorgebucaran/fisher)
+### [fisher](https://github.com/jorgebucaran/fisher)
 A package manager for fish shell plugins
 install
 ```sh
@@ -129,7 +249,7 @@ curl https://git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fi
 
 
 
-#### [fzf](https://github.com/junegunn/fzf#installation)
+### [fzf](https://github.com/junegunn/fzf#installation)
 A fuzzy finder (for history)
 install
 ```sh
@@ -159,7 +279,7 @@ preview   - file previewer
 
 
 
-#### [fzy](https://github.com/jhawthorn/fzy)
+### [fzy](https://github.com/jhawthorn/fzy)
 A better fuzzy finder
 install
 ```sh
@@ -182,7 +302,7 @@ proj [enter]   # get a list of all projects
 
 
 
-#### [httpie](https://github.com/jakubroztocil/httpie)
+### [httpie](https://github.com/jakubroztocil/httpie)
 A user-friendly curl alternative with intuitive UI, JSON support, syntax highlighting
 install
 ```sh
@@ -197,7 +317,7 @@ http --download example.org/file
 
 
 
-#### [icdiff](https://www.jefftk.com/icdiff)
+### [icdiff](https://www.jefftk.com/icdiff)
 A better diff
 install
 ```sh
@@ -210,7 +330,7 @@ icdiff file1 file2
 
 
 
-#### [jp](https://github.com/jmespath/jp)
+### [jp](https://github.com/jmespath/jp)
 A json parser
 install
 ```sh
@@ -224,7 +344,7 @@ cat package.json | jp scripts.start
 
 
 
-#### [massren](https://github.com/laurent22/massren)
+### [massren](https://github.com/laurent22/massren)
 A batch rename files as text in any editor
 install
 ```sh
@@ -242,7 +362,7 @@ ren [enter]
 
 
 
-#### [tldr](https://tldr.sh/#installation)
+### [tldr](https://tldr.sh/#installation)
 A better "man"
 install
 ```sh
@@ -259,7 +379,7 @@ help ls
 
 
 
-#### z
+### z
 - [bash implementation](https://github.com/rupa/z)
 - [fish implementation](https://github.com/jethrokuan/z)
   install
@@ -270,10 +390,17 @@ help ls
 
 ## CLI apps development
 
-- [Inquirer](https://github.com/SBoudrias/Inquirer.js) - A collection of common interactive command line user interfaces.
-- [Signale](https://github.com/klaussinani/signale) - A hackable console logger
-- [Ora](https://github.com/sindresorhus/ora) - terminal spinner
-- [progress-estimator](https://github.com/bvaughn/progress-estimator) - Logs a progress bar and estimation for how long a Promise will take to complete
+### [Inquirer](https://github.com/SBoudrias/Inquirer.js)
+A collection of common interactive command line user interfaces.
+
+### [Signale](https://github.com/klaussinani/signale)
+A hackable console logger
+
+### [Ora](https://github.com/sindresorhus/ora)
+Terminal spinner
+
+### [progress-estimator](https://github.com/bvaughn/progress-estimator)
+Logs a progress bar and estimation for how long a Promise will take to complete
 
 
 
