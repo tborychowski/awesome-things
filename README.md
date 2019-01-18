@@ -1,17 +1,47 @@
+
+
 # Awesome Things
 
 A list of awesome tools, repos, apps and other shit.
 
-
 [TOC]
+
+
+## Editor
+
+- [VSCode](https://code.visualstudio.com/)
+  - [awesome-vscode](https://github.com/viatsko/awesome-vscode#readme)
+  - [VS Code can do that?!](https://vscodecandothat.com/)
+- [Micro](https://github.com/zyedidia/micro) - A modern and intuitive terminal-based text editor
+
+### Editor Plugins
+- [TODO]
+
+
+### Font
+- [FiraCode nerd font](https://github.com/ryanoasis/nerd-fonts/releases/tag/v2.0.0) - nerd font patcher fira code
+
+
+## Colours
+- [Nord](https://github.com/arcticicestudio/nord)
+- [nord-visual-studio-code](https://github.com/arcticicestudio/nord-visual-studio-code)
+- [nord-iterm2](https://github.com/arcticicestudio/nord-iterm2)
+- [nord-hyper](https://github.com/arcticicestudio/nord-hyper)
+- [nord-slack](https://github.com/arcticicestudio/nord-slack)
+- [vivaldi-nord](https://github.com/arcticicestudio/nord/issues/100), or: 
+  - background: #2f343f
+  - foreground: #eceff4
+  - highlight: #4d5668
+  - accent: #4d5668
 
 
 
 ## Terminal
 
 ### Terminal emulators
-- [iTerm](https://iterm2.com/)
-  - [Tweaking iTerm]()
+- [iTerm](https://iterm2.com/) - bestest
+  - [Tweaking iTerm](https://www.felixjung.io/posts/pretty-iterm2-with-a-modern-titlebar/)
+- [Hyper](https://hyper.is/) - electron based pluggable terminal emulator
 - [upterm](https://github.com/railsware/upterm)
 
 
@@ -22,7 +52,6 @@ A list of awesome tools, repos, apps and other shit.
 
 
 ### CLI apps
-
 
 #### [autojump](https://github.com/wting/autojump)
 A better "cd". [cd-is-wasting-your-time](https://olivierlacan.com/posts/cd-is-wasting-your-time/)
@@ -239,46 +268,53 @@ help ls
   ```
 
 
-### Other terminal-related soft
-- [Signale](https://github.com/klaussinani/signale)
-A hackable console logger
+## CLI apps development
+
+- [Inquirer](https://github.com/SBoudrias/Inquirer.js) - A collection of common interactive command line user interfaces.
+- [Signale](https://github.com/klaussinani/signale) - A hackable console logger
 - [Ora](https://github.com/sindresorhus/ora) - terminal spinner
 - [progress-estimator](https://github.com/bvaughn/progress-estimator) - Logs a progress bar and estimation for how long a Promise will take to complete
 
 
 
+
 ##  Web Development
 
-### Editor
+### svelte
+The magical disappearing UI framework.
+- [github](https://github.com/sveltejs/svelte)
+- [guide](https://svelte.technology/guide)
 
-- [VSCode](https://code.visualstudio.com/)
-  - [awesome-vscode](https://github.com/viatsko/awesome-vscode#readme)
-  - [VS Code can do that?!](https://vscodecandothat.com/)
+### sequelize
+A promise-based ORM for Node. Supports PostgreSQL, MySQL, SQLite and MSSQL.
+- [docs](http://docs.sequelizejs.com/)
+- [github](https://github.com/sequelize/sequelize)
 
-### Editor Plugins
+### express
+Fast, unopinionated, minimalist web framework for Node.js.
+- [homepage](https://expressjs.com/)
 
-### Font
-- [FiraCode nerd font](https://github.com/ryanoasis/nerd-fonts/releases/tag/v2.0.0) - nerd font patcher fira code
+### jest
+Delightful JavaScript Testing.
+- [docs](https://jestjs.io/docs/en/getting-started)
+- [github](https://github.com/facebook/jest)
 
-
-## Frameworks & libs
-
-- svelte
-- sequelize
-- express
-- jest
 
 ## Self-hosted
 
-- miniflux
-- kanboard
-- gogs
+### miniflux
+A minimalist and opinionated feed reader.
+- [homepage](https://miniflux.app/)
+- [github](https://github.com/miniflux/miniflux)
 
+### kanboard
+Free and open source Kanban project management software.
+- [homepage](https://kanboard.org/)
+- [github](https://github.com/kanboard/kanboard)
 
-
-
-
-
-
+### gogs
+Gogs is a painless self-hosted Git service.
+- [homepage](https://gogs.io/)
+- [github](https://github.com/gogs/gogs)
 
 
