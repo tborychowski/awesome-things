@@ -1,16 +1,225 @@
 # Awesome Things
+
 A list of awesome tools, repos, apps and other shit.
 
-## 1. Terminal
-### 1.1. Terminal emulators
+
+https://github.com/tborychowski?tab=stars
+
+
+
+## Terminal
+
+### Terminal emulators
 - [iTerm](https://iterm2.com/)
 - [Tweaking iTerm]()
 - [upterm](https://github.com/railsware/upterm)
-### 1.2. Shell
+
+
+### Shell
 - [fish](https://fishshell.com/)
-### 1.3. CLI apps (bash)
+- https://github.com/jethrokuan/z
+
+
+### CLI apps (bash)
+- [autojump](https://github.com/wting/autojump) - better "cd"
+  https://olivierlacan.com/posts/cd-is-wasting-your-time/
+  install
+  ```sh
+  brew install autojump
+  ```
+  in `.bashrc`
+  ```sh
+  [ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
+  ```
+  use
+  ```sh
+  # cd to folders and then:
+  j p
+  ```
+- [bat](https://github.com/sharkdp/bat) - better cat
+  install
+  ```sh
+  brew install bat
+  ```
+  use
+  ```sh
+  bat file.js
+  ```
+- [exa](https://github.com/ogham/exa) - better "ls"
+  install
+  ```sh
+  brew install exa
+  ```
+  use
+  ```sh
+  alias ll='exa --all --header --long --group-directories-first --git --time-style long-iso'
+  ```
+- [fasd](https://github.com/clvv/fasd) - even better cd
+  install
+  ```sh
+  brew install fasd
+  ```
+  in `.bashrc`
+  ```sh
+  eval "$(fasd --init auto)"   # this goes to .bashrc
+
+  function c() {
+      if [ $# -eq 0 ]; then
+          code .;
+      else
+          fasd -ae code "$@";
+      fi;
+  }
+  ```
+  use
+  ```sh
+  z no   #  cd ~/Projects/_playground/noter
+  c t    # code ~/Projects/_playground/tim
+  ```
+- [fzf](https://github.com/junegunn/fzf#installation) - fuzzy finder (for history)
+  install
+  ```sh
+  brew install fzf
+  brew install fd
+  $(brew --prefix)/opt/fzf/install
+  ```
+  config
+  ```sh
+  # .bash_aliases
+  alias preview="fzf --preview 'bat {}' --layout reverse --preview-window=right:50%"
+  # .bashrc
+  source ~/.fzf.bash
+  complete -F _fzf_path_completion -o default -o bashdefault bat
+  complete -F _fzf_path_completion -o default -o bashdefault fd
+  # .bash_exports
+  export FZF_DEFAULT_COMMAND='fd --type f'
+  export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
+  export FZF_DEFAULT_OPTS="--bind='ctrl-o:execute(code {})+abort'"
+  ```
+  use
+  ```sh
+  ctrl+r    - fuzzy search history
+  ctrl+t    - fuzzy search file
+  preview   - file previewer
+  ```
+- [fzy](https://github.com/jhawthorn/fzy) - better fuzzy finder
+  install
+  ```sh
+  brew install fzy
+  ```
+  in `.bashrc`
+  ```sh
+  function g() {
+      cd $(find . -maxdepth 3 -type d | fzy)
+  }
+  proj() {
+      cd $(find ~/Projects ~/Projects/_playground -maxdepth 1 -type d | fzy)
+  }
+  ```
+  use
+  ```sh
+  g [enter]      # get a list of all subfolders
+  proj [enter]   # get a list of all projects
+  ```
 - [httpie](https://github.com/jakubroztocil/httpie) - user-friendly curl alternative with intuitive UI, JSON support, syntax highlighting
-### 1.4 Other terminal soft
+  install
+  ```sh
+  brew install httpie
+  ```
+  use
+  ```sh
+  http httpie.org
+  http --download example.org/file
+  # https://httpie.org/doc#usage
+  ```
+- [icdiff](https://www.jefftk.com/icdiff) - better diff
+  install
+  ```sh
+  brew install icdiff
+  ```
+  use
+  ```sh
+  icdiff file1 file2
+  ```
+- [jp](https://github.com/jmespath/jp) - json parser
+  install
+  ```sh
+  brew tap jmespath/jmespath
+  brew install jp
+  ```
+  use
+  ```sh
+  cat package.json | jp scripts.start
+  ```
+- [massren](https://github.com/laurent22/massren) - batch rename files as text in any editor
+  install
+  ```sh
+  brew install massren
+  ```
+  in `.bashrc`
+  ```sh
+  massren --config editor code
+  alias ren="massren"
+  ```
+  use
+  ```sh
+  ren [enter]
+  ```
+- [tldr](https://tldr.sh/#installation) - better "man"
+  install
+  ```sh
+  brew install tldr
+  ```
+  in `.bashrc`
+  ```sh
+  alias help='tldr'
+  ```
+  use
+  ```sh
+  help ls
+  ```
+
+
+
+### Other terminal-related soft
 - [Signale](https://github.com/klaussinani/signale) - hackable console logger
 - [Ora](https://github.com/sindresorhus/ora) - terminal spinner
 - [progress-estimator](https://github.com/bvaughn/progress-estimator) - Logs a progress bar and estimation for how long a Promise will take to complete
+
+
+
+##  Web Development
+
+### Editor
+
+- [VSCode](https://code.visualstudio.com/)
+  - [awesome-vscode](https://github.com/viatsko/awesome-vscode#readme)
+  - [VS Code can do that?!](https://vscodecandothat.com/)
+
+### Editor Plugins
+
+### Font
+- [FiraCode nerd font](https://github.com/ryanoasis/nerd-fonts/releases/tag/v2.0.0) - nerd font patcher fira code
+
+
+## Frameworks & libs
+
+- svelte
+- sequelize
+- express
+- jest
+
+## Self-hosted
+
+- miniflux
+- kanboard
+- gogs
+
+
+
+
+
+
+
+
+
