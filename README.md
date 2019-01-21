@@ -319,7 +319,7 @@ help ls
 - [Signale](https://github.com/klaussinani/signale) - A hackable console logger
 - [Ora](https://github.com/sindresorhus/ora) - Terminal spinner
 - [progress-estimator](https://github.com/bvaughn/progress-estimator) - Logs a progress bar and estimation for how long a Promise will take to omplete
-
+- [chalk](https://github.com/chalk/chalk) - Terminal string styling done right.
 
 
 ##  Web Development
