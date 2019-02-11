@@ -316,6 +316,7 @@ help ls
 
 ## CLI apps development
 - [Inquirer](https://github.com/SBoudrias/Inquirer.js) - A collection of common interactive command line user interfaces.
+- [qoa](https://github.com/klaussinani/qoa) - similar to inquirer, but different
 - [Signale](https://github.com/klaussinani/signale) - A hackable console logger
 - [Ora](https://github.com/sindresorhus/ora) - Terminal spinner
 - [progress-estimator](https://github.com/bvaughn/progress-estimator) - Logs a progress bar and estimation for how long a Promise will take to omplete
