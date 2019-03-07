@@ -1,4 +1,4 @@
-# Awesome Things - CLI apps
+# CLI apps
 
 - [autojump](#autojump)
 - [bat](#bat)

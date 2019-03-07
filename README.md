@@ -85,6 +85,7 @@ A list of awesome tools, repos, apps and other shit.
 
 
 ## CLI apps
+See the [CLI apps](cli-apps.md) dedicated page for install & usage.
 - [autojump](cli-apps.md#autojump) - A better "cd"
 - [bat](cli-apps.md#bat) - A better cat
 - [exa](cli-apps.md#exa) - A better "ls"
