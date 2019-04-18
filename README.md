@@ -88,6 +88,7 @@ A list of awesome tools, repos, apps and other shit.
 See the [CLI apps](cli-apps.md) dedicated page for install & usage.
 - [autojump](cli-apps.md#autojump) - A better "cd"
 - [bat](cli-apps.md#bat) - A better cat
+- [imgcat](cli-apps.md#imgcat) - cat for images
 - [exa](cli-apps.md#exa) - A better "ls"
 - [fasd](cli-apps.md#fasd) - Even better cd
 - [fisher](cli-apps.md#fisher) - A package manager for fish shell plugins
