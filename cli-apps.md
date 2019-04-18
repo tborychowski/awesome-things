@@ -2,6 +2,7 @@
 
 - [autojump](#autojump)
 - [bat](#bat)
+- [imgcat](#imgcat)
 - [exa](#exa)
 - [fasd](#fasd)
 - [fisher](#fisher)
@@ -44,6 +45,18 @@ use
 bat file.js
 ```
 
+
+## [imgcat](https://github.com/eddieantonio/imgcat)
+cat for images
+install
+```sh
+brew tap eddieantonio/eddieantonio
+brew install imgcat
+```
+use
+```sh
+imgcat image.png
+```
 
 ## [exa](https://github.com/ogham/exa)
 A better "ls"
