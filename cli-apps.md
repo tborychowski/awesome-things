@@ -2,6 +2,7 @@
 
 - [autojump](#autojump)
 - [bat](#bat)
+- [ctop](#ctop)
 - [imgcat](#imgcat)
 - [exa](#exa)
 - [fasd](#fasd)
@@ -44,6 +45,19 @@ use
 ```sh
 bat file.js
 ```
+
+## [ctop](https://github.com/bcicen/ctop)
+htop for docker
+install
+```sh
+sudo wget https://github.com/bcicen/ctop/releases/download/v0.7.3/ctop-0.7.3-linux-amd64 -O /usr/local/bin/ctop
+sudo chmod +x /usr/local/bin/ctop
+```
+use
+```sh
+ctop
+```
+
 
 
 ## [imgcat](https://github.com/eddieantonio/imgcat)
