@@ -2,6 +2,8 @@
 
 - [autojump](#autojump)
 - [bat](#bat)
+- [ctop](#ctop)
+- [imgcat](#imgcat)
 - [exa](#exa)
 - [fasd](#fasd)
 - [fisher](#fisher)
@@ -45,6 +47,31 @@ use
 bat file.js
 ```
 
+## [ctop](https://github.com/bcicen/ctop)
+htop for docker
+install
+```sh
+sudo wget https://github.com/bcicen/ctop/releases/download/v0.7.3/ctop-0.7.3-linux-amd64 -O ~/bin/ctop
+sudo chmod +x ~/bin/ctop
+```
+use
+```sh
+ctop
+```
+
+
+
+## [imgcat](https://github.com/eddieantonio/imgcat)
+cat for images
+install
+```sh
+brew tap eddieantonio/eddieantonio
+brew install imgcat
+```
+use
+```sh
+imgcat image.png
+```
 
 ## [exa](https://github.com/ogham/exa)
 A better "ls"
