@@ -12,6 +12,7 @@
 - [jp](#jp)
 - [massren](#massren)
 - [tldr](#tldr)
+- [trash](#trash)
 - [z](#z)
 
 
@@ -221,6 +222,20 @@ help ls
 ```
 
 
+## [trash](http://hasseg.org/trash/)
+Delete files/folders to trash.
+install
+```sh
+brew install trash
+```
+in `.bashrc`
+```sh
+alias del="trash"
+```
+use
+```sh
+del file.txt
+```
 
 ## z
 - [bash implementation](https://github.com/rupa/z)
