@@ -1,11 +1,9 @@
 # CLI apps
 
-- [autojump](#autojump)
 - [bat](#bat)
 - [ctop](#ctop)
 - [imgcat](#imgcat)
 - [exa](#exa)
-- [fasd](#fasd)
 - [fisher](#fisher)
 - [fzf](#fzf)
 - [fzy](#fzy)
@@ -15,25 +13,11 @@
 - [massren](#massren)
 - [tldr](#tldr)
 - [trash](#trash)
-- [z](#z)
+- [z.lua](#zlua)
 
 
 
-## [autojump](https://github.com/wting/autojump)
-A better "cd". [cd-is-wasting-your-time](https://olivierlacan.com/posts/cd-is-wasting-your-time/)
-install
-```sh
-brew install autojump
-```
-in `.bashrc`
-```sh
-[ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
-```
-use
-```sh
-# cd to folders and then:
-j p
-```
+
 
 
 ## [bat](https://github.com/sharkdp/bat)
@@ -46,6 +30,8 @@ use
 ```sh
 bat file.js
 ```
+
+
 
 ## [ctop](https://github.com/bcicen/ctop)
 htop for docker
@@ -73,6 +59,8 @@ use
 imgcat image.png
 ```
 
+
+
 ## [exa](https://github.com/ogham/exa)
 A better "ls"
 install
@@ -84,30 +72,6 @@ use
 alias ll='exa --all --header --long --group-directories-first --git --time-style long-iso'
 ```
 
-
-## [fasd](https://github.com/clvv/fasd)
-Even better cd
-install
-```sh
-brew install fasd
-```
-in `.bashrc`
-```sh
-eval "$(fasd --init auto)"   # this goes to .bashrc
-
-function c() {
-	if [ $# -eq 0 ]; then
-		code .;
-	else
-		fasd -ae code "$@";
-	fi;
-}
-```
-use
-```sh
-z no   #  cd ~/Projects/_playground/noter
-c t    # code ~/Projects/_playground/tim
-```
 
 
 
@@ -264,10 +228,5 @@ use
 del file.txt
 ```
 
-## z
-- [bash implementation](https://github.com/rupa/z)
-- [fish implementation](https://github.com/jethrokuan/z)
-  install
-  ```sh
-  fisher add jethrokuan/z
-  ```
+## [z.lua](https://github.com/skywind3000/z.lua)
+  Must be downloaded manually from GH repo.
